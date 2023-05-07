@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Lora:wght@400;500;700&display=swap');
+
+
+*{
+		box-sizing: border-box;
+	/*text-align: center;*/
+}
+td{
+	border-right: 2px solid;
+	text-align: center;
+}
+header{
+	border: 2px solid;
+	display: flex;
+	justify-content: space-between;
+	background-color: darkseagreen;
+	box-shadow: 5px 4px 3px red;
+}
+body{
+	background-image: url("Naruto.webp");
+	background-color: white;
+	display: block;
+width: fil-content;
+margin: auto;
+}
+main{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	height: fit-content;
+	  }
+#Parc-national{
+text-align: right;
+font-size: 15px;
+width: 65%;
+height: fit-content;
+border-left: 2px solid;
+
+}
+#num1{
+	margin-top: 100px;
+	width: 40%;
+	height: 10%;
+	/*max-height: 5%;
+	max-width: 10%;*/
+}
+#num2{
+	/*max-height: 100%;
+	max-width: 100%;*/
+	margin-top: 120px;
+	width: 40%;
+	height: 15%;
+}
+#num3{
+	/*max-height: 100%;
+	max-width: 100%;*/
+	margin-top: 130px;
+	width: 40%;
+	height: 15%;	
+}
+#oui{
+	text-align: left;
+}
+#num4{
+	width: 60%;
+	height: 25%;
+}
+#num5{
+width: 70%;
+	height: 25%;	
+}
+div{
+	display: block;
+	align-content: center;
+}
+#n1{
+	border: 3px solid white;
+	display: block;
+	width: 60%;
+	margin: auto;
+	text-align: justify;
+
+}
+div{
+	display: flex;
+	flex-wrap: wrap;
+	border-bottom: 2px solid;
+	/*background-image: url("drp.jpg");*/
+}
+#n2{
+	border: 3px solid white;
+	display: block;
+	width: 60%;
+	margin: auto;
+}
+#n3{
+	border: 3px solid white;
+	display: block;
+	width: 60%;
+	margin: auto;
+}
+
+}
+#ok4{
+	text-align: left;
+	border: 1px;
+	width: 50%;
+}
+#ok5{
+	text-align: left;
+	border: 1px;
+	width: 50%;
+}
+#explication{
+	width: 30%;
+	height: fit-content;
+}
+p{
+	text-align: justify;
+	text-align: center;
+	width: 60%;
+	margin: auto;
+
+}
+h2{
+	text-align: center;
+}
+
+h4{
+	text-align: left;
+	width: 40%;
+	margin: auto;
+}
+
+nav{
+	text-align: center;
+	background-image: url("téléchargé.jpg");
+
+}
+#o1{
+	text-align: center;
+	}
+#o2{
+	font-family: cursive 'Dancing Script';
+
+	text-align: center;
+}
+footer{
+	color: red;
+	text-align: center;
+	font-family: 'Georgia', Serif;
+}
+#Biche{
+	font-size: 35px;
+}
+hr{
+
+	color: black;
+	width: 450px;
+}
+.qui{
+	border-radius: 20px;
+	padding: 10px;
+	background-image: url("oui.jpg");
+	color: red;
+	width: 300px;
+	font-size: 40px;
+}
+.qui::placeholder{
+	color: blue;
+}
+h5{
+	background-image: url("Naruto.webp");
+}
+#de{
+	/*display: block;*/
+}
+.menu-principal li{
+	display: inline-block;/*on veut que la liste s'affiche à l'horizontal*/
+	text-align: center;
+	width: 100px;
+	height: 60px;
+	padding: 10px;
+	background-color: orangered;
+	color: white;
+	vertical-align: top;/*pour aligner tout les élements sur un axe vertical*/
+	position: relative;/*Détermine un type de positionnement qui servira aux élements enfants*/
+}
+.menu-principal li:hover{
+	background-color: darkred;/*en survolant on change la couleur*/
+}
+/*le signe > indique qu'on selectione uniquement les <li> de premier niveau*/
+.menu-principal > li{
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+.sur-menu{
+	padding: 0px;/*on retire un padding par defaut*/
+
+}
+.sur-menu span{
+	display: block;/*block de text au sein de notre <li> qui va remplir toute la place*/
+	padding: 0px 5px;
+	height: 150%;
+	width: 120%;
+
+}
+.sous-menu{
+	position: absolute;
+	top: 100%;/*on déclare de 100% vers le bas*/
+	left: 0px;
+	padding: 0px;
+	display: none;/*affichage par defaut : none c-à-d ne s'affiche pas*/
+	height: 180%;
+	width: 120%;
+}
+.sous-menu li{
+	display: block;/*la liste de sous menu doit s'afficher à la verticale*/
+}
+/*la ligne signifie que lorsque'on survole le sur menu, le sous menu s'affiche grace à display block*/
+.sur-menu:hover .sous-menu{
+	display: block;
+}
+td:hover{
+	background-color: green;
+}
+/*l'option fit-content permet d'adapter la taille d'un block par rapport à son contenu le plus long*/
